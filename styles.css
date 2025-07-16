@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Font';
+    src: url('res/font/font.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Font Bold';
+    src: url('res/font/font_bold.woff2') format('woff2');
+}
+
+html {
+    scrollbar-width: none;
+}
+
+h1, h2, h3, h4, strong, label[for=uid], .btn {
+    font-family: 'Font Bold', sans-serif;
+}
+
+p, li, ul, span, #uid, #likeUid {
+    font-family: 'Font', sans-serif;
+}
+
+#logo {
+    height: 400px;
+}
+
+#uid, #likeUid {
+    width: 175px;
+    text-align: center;
+}
+
+#goBtn {
+    width: 75px;
+    background-color: #ff0000;
+}
+
+#buyBtn {
+    background-color: #7700ff;
+}
+
+@media (max-width: 768px) {
+    #logo {
+      height: auto;
+    }
+
+    #uid, #likeUid {
+        width: 150px;
+        text-align: center;
+    }
+}
