@@ -11,7 +11,7 @@ fetch('https://raw.githubusercontent.com/0xMe/ItemID2/refs/heads/main/assets/ite
     console.error('Failed to load itemData.json:', err);
 });
 
-const key = "Sounava777-June-07";
+const key = "Sounava777-August-15;
 
 function setRegion(newRegion) {
         region = newRegion;
@@ -67,7 +67,7 @@ function displayData(data) {
         const avatarItem = itemData.find(item => item.itemID == data.basicInfo.headPic);
         document.getElementById('headPic').textContent = avatarItem ? avatarItem.description : data.basicInfo.headPic;
 
-        document.getElementById('headPicId').textContent = data.basicInfo.headPic;0
+        document.getElementById('headPicId').textContent = data.basicInfo.headPic;
 
         let iconName = avatarItem?.icon;
         const avatarImg = document.getElementById("avatarImg");
