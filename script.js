@@ -11,7 +11,7 @@ fetch('https://raw.githubusercontent.com/0xMe/ItemID2/refs/heads/main/assets/ite
     console.error('Failed to load itemData.json:', err);
 });
 
-const key = "Sounava777-August-15;
+const key = "Sounava777-August-15";
 
 function setRegion(newRegion) {
         region = newRegion;
