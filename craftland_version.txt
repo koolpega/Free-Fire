@@ -1,1 +1,1 @@
-FF%20PC/audio/UI_OB_Booyah.ogg
+FF PC/audio/UI_OB_Booyah.ogg
